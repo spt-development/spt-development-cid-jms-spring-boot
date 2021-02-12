@@ -4,7 +4,7 @@
 
     <groupId>com.spt-development</groupId>
     <artifactId>spt-development-cid-jms-spring-boot</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>cid-jms-spring-boot</name>
     <description>Library for integrating spt-development/spt-development-cid-jms-spring into a Spring Boot application.</description>
@@ -410,6 +410,26 @@
                         </plugin>
                     </plugins>
                 </pluginManagement>
+
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <!-- Version and configuration etc defined in pluginManagement section -->
+                    </plugin>
+                    <plugin>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <!-- Version and configuration etc defined in pluginManagement section -->
+                    </plugin>
+                    <plugin>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <!-- Version and configuration etc defined in pluginManagement section -->
+                    </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <!-- Version and configuration etc defined in pluginManagement section -->
+                    </plugin>
+                </plugins>
             </build>
         </profile>
     </profiles>
