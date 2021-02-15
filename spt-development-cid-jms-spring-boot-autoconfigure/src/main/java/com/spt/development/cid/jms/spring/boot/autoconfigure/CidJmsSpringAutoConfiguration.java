@@ -22,7 +22,6 @@ public class CidJmsSpringAutoConfiguration {
      * @return a new {@link CorrelationIdSetter} bean.
      */
     @Bean
-    @Order(0)
     @ConditionalOnMissingBean
     public CorrelationIdSetter correlationIdSetter() {
         return new CorrelationIdSetter();

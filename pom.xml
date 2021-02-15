@@ -4,7 +4,7 @@
 
     <groupId>com.spt-development</groupId>
     <artifactId>spt-development-cid-jms-spring-boot</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <name>cid-jms-spring-boot</name>
     <description>Library for integrating spt-development/spt-development-cid-jms-spring into a Spring Boot application.</description>
@@ -42,7 +42,7 @@
         <spring.version>5.3.2</spring.version>
         <spring-boot.version>2.4.1</spring-boot.version>
         <spt-cid.version>1.1.0</spt-cid.version>
-        <spt-cid-jms-spring.version>1.0.0</spt-cid-jms-spring.version>
+        <spt-cid-jms-spring.version>1.0.1</spt-cid-jms-spring.version>
 
         <!-- Test dependency versions -->
         <hamcrest.version>2.2</hamcrest.version>

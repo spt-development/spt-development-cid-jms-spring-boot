@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.spt-development</groupId>
         <artifactId>spt-development-cid-jms-spring-boot</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </parent>
 
     <artifactId>spt-development-cid-jms-spring-boot-autoconfigure</artifactId>
@@ -21,10 +21,6 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
