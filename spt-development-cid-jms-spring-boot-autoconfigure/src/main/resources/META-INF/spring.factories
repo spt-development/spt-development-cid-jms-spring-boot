@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.spt.development.cid.jms.spring.boot.autoconfigure.CidJmsSpringAutoConfiguration
