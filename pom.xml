@@ -39,7 +39,7 @@
         <!-- Dependency versions -->
         <spring-boot.version>2.7.5</spring-boot.version>
         <spt-cid.version>2.0.11</spt-cid.version>
-        <spt-cid-jms-spring.version>2.0.7</spt-cid-jms-spring.version>
+        <spt-cid-jms-spring.version>2.0.8</spt-cid-jms-spring.version>
 
         <!-- Plugin versions -->
         <checkstyle-maven-plugin.version>3.1.2</checkstyle-maven-plugin.version>
