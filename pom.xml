@@ -639,7 +639,7 @@
                             <extensions>true</extensions>
                             <configuration>
                                 <publishingServerId>central</publishingServerId>
-                                <autoPublish>false</autoPublish>
+                                <autoPublish>true</autoPublish>
                                 <waitUntil>published</waitUntil>
                             </configuration>
                             <!-- Version defined in pluginManagement section -->
